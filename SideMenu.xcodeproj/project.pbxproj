@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0D410A2570624600264353 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D41092570624600264353 /* NavigationController.swift */; };
+		8A0D410F257068B900264353 /* CustomPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D410E257068B900264353 /* CustomPushTransition.swift */; };
+		8A0D411325706E7600264353 /* CustomPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D411225706E7600264353 /* CustomPopTransition.swift */; };
 		8A3EAF8425704A7800A9936F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3EAF8325704A7800A9936F /* AppDelegate.swift */; };
 		8A3EAF8625704A7800A9936F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3EAF8525704A7800A9936F /* SceneDelegate.swift */; };
 		8A3EAF8825704A7800A9936F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3EAF8725704A7800A9936F /* ViewController.swift */; };
 		8A3EAF8B25704A7800A9936F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EAF8925704A7800A9936F /* Main.storyboard */; };
 		8A3EAF8D25704A7D00A9936F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EAF8C25704A7D00A9936F /* Assets.xcassets */; };
 		8A3EAF9025704A7D00A9936F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EAF8E25704A7D00A9936F /* LaunchScreen.storyboard */; };
+		8A3EAF9A25704B0D00A9936F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3EAF9925704B0D00A9936F /* MenuController.swift */; };
+		8A3EAF9E25704DF100A9936F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3EAF9C25704DF100A9936F /* CustomTableViewCell.swift */; };
+		8A3EAF9F25704DF100A9936F /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EAF9D25704DF100A9936F /* CustomTableViewCell.xib */; };
+		8AD8F8D62574E8CC004508E2 /* TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8F8D52574E8CC004508E2 /* TransitionCoordinator.swift */; };
+		8AD8F8D92574E91F004508E2 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8F8D82574E91F004508E2 /* TransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A0D41092570624600264353 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		8A0D410E257068B900264353 /* CustomPushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPushTransition.swift; sourceTree = "<group>"; };
+		8A0D411225706E7600264353 /* CustomPopTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopTransition.swift; sourceTree = "<group>"; };
 		8A3EAF8025704A7800A9936F /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3EAF8325704A7800A9936F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A3EAF8525704A7800A9936F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,11 @@
 		8A3EAF8C25704A7D00A9936F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3EAF8F25704A7D00A9936F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A3EAF9125704A7D00A9936F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3EAF9925704B0D00A9936F /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		8A3EAF9C25704DF100A9936F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		8A3EAF9D25704DF100A9936F /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		8AD8F8D52574E8CC004508E2 /* TransitionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionCoordinator.swift; sourceTree = "<group>"; };
+		8AD8F8D82574E91F004508E2 /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A0D410D2570687400264353 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				8A0D410E257068B900264353 /* CustomPushTransition.swift */,
+				8A0D411225706E7600264353 /* CustomPopTransition.swift */,
+				8AD8F8D52574E8CC004508E2 /* TransitionCoordinator.swift */,
+				8AD8F8D82574E91F004508E2 /* TransitionAnimator.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		8A0D41182572A89E00264353 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8A3EAF8C25704A7D00A9936F /* Assets.xcassets */,
+				8A3EAF8E25704A7D00A9936F /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		8A3EAF7725704A7800A9936F = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +94,33 @@
 			children = (
 				8A3EAF8325704A7800A9936F /* AppDelegate.swift */,
 				8A3EAF8525704A7800A9936F /* SceneDelegate.swift */,
-				8A3EAF8725704A7800A9936F /* ViewController.swift */,
+				8A0D410D2570687400264353 /* Transitions */,
+				8A3EAFA225704E1200A9936F /* Controllers */,
+				8A3EAFA125704DFA00A9936F /* Cell */,
 				8A3EAF8925704A7800A9936F /* Main.storyboard */,
-				8A3EAF8C25704A7D00A9936F /* Assets.xcassets */,
-				8A3EAF8E25704A7D00A9936F /* LaunchScreen.storyboard */,
+				8A0D41182572A89E00264353 /* Assets */,
 				8A3EAF9125704A7D00A9936F /* Info.plist */,
 			);
 			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		8A3EAFA125704DFA00A9936F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8A3EAF9C25704DF100A9936F /* CustomTableViewCell.swift */,
+				8A3EAF9D25704DF100A9936F /* CustomTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8A3EAFA225704E1200A9936F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A0D41092570624600264353 /* NavigationController.swift */,
+				8A3EAF8725704A7800A9936F /* ViewController.swift */,
+				8A3EAF9925704B0D00A9936F /* MenuController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +182,7 @@
 			files = (
 				8A3EAF9025704A7D00A9936F /* LaunchScreen.storyboard in Resources */,
 				8A3EAF8D25704A7D00A9936F /* Assets.xcassets in Resources */,
+				8A3EAF9F25704DF100A9936F /* CustomTableViewCell.xib in Resources */,
 				8A3EAF8B25704A7800A9936F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0D411325706E7600264353 /* CustomPopTransition.swift in Sources */,
+				8A3EAF9A25704B0D00A9936F /* MenuController.swift in Sources */,
+				8A0D410A2570624600264353 /* NavigationController.swift in Sources */,
+				8A3EAF9E25704DF100A9936F /* CustomTableViewCell.swift in Sources */,
 				8A3EAF8825704A7800A9936F /* ViewController.swift in Sources */,
+				8AD8F8D62574E8CC004508E2 /* TransitionCoordinator.swift in Sources */,
+				8A0D410F257068B900264353 /* CustomPushTransition.swift in Sources */,
+				8AD8F8D92574E91F004508E2 /* TransitionAnimator.swift in Sources */,
 				8A3EAF8425704A7800A9936F /* AppDelegate.swift in Sources */,
 				8A3EAF8625704A7800A9936F /* SceneDelegate.swift in Sources */,
 			);
